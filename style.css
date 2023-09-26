@@ -1,0 +1,84 @@
+body {
+  background-color: #DEB887;
+  margin: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background-image: url("./carta.png");
+}
+
+
+
+form {
+  width: 100%;
+  align-items: center;
+  background-color: #F5DEB3;
+  padding: 3rem;
+
+}
+
+h1 {
+  justify-content: center;
+  color: #8B4513;
+  font-size: 2rem;
+  text-align: center;
+  font-family: 'Harry Potter', cursive;
+}
+
+h4 {
+  justify-content: center;
+  color: #8B4513;
+  text-align: center;
+  font-family: 'Harry Potter', cursive;
+}
+
+label {
+  font-family: 'Harry Potter', cursive;
+  color: #8B4513;
+
+
+}
+
+.caixa-resposta {
+  border: 3px solid #e49307;
+  border-radius: 30px;
+  padding: 60px;
+  width: 250px;
+  height: 200px;
+}
+
+input {
+  border: 2px solid #6a0606;
+  border-radius: 20px;
+  padding: 4px;
+}
+
+.input-group {
+  justify-content: space-between;
+  padding: 1rem;
+
+}
+
+.input-box {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.1 rem;
+}
+
+.input-box input {
+  margin: 0.6rem;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 1px 1px 6px #00001c;
+}
+
+.input-box input:hover {
+  background-color: #eeeeee75;
+
+}
+
+.imagem {
+  justify-content: left
+}
